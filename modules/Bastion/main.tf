@@ -28,7 +28,7 @@ resource "aws_vpc_security_group_egress_rule" "SG_Bastion_egress2" {
 
 resource "aws_instance" "bastion" {   
     tags = {
-        Name = "BastionHost"
+        Name = "BastianHost"
     }
     ami = data.aws_ssm_parameter.ami.value
     instance_type = var.instance_type
