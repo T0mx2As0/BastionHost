@@ -4,6 +4,7 @@ variable "key_name" {
 
 variable "user" {
   type = string
+  sensitive = true
 }
 
 variable "instance_type" {

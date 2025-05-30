@@ -12,6 +12,7 @@ variable "instance_type" {
 
 variable "user" {
   type = string
+  sensitive = true
 }
 
 data "aws_iam_access_keys" "Personal" {
