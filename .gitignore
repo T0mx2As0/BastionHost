@@ -1,0 +1,6 @@
+# Terraform state file and .hcl 
+
+.terraform
+*.hcl
+*.tfstate
+*.tfstate.*
