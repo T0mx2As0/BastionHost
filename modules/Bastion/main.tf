@@ -1,4 +1,7 @@
 resource "aws_security_group" "SG_bastion" {
+    tags = {
+    	Name = "Bastion_SG"
+    }
     name = "Security Group Bastion Host"
     description = "Security Group Bastion Host"
 }
