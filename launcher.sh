@@ -14,8 +14,11 @@ if ["$n_instances" -g 0 ]; then
 
 else
 
-    echo "esecuzione terraform ...."
+    echo "Non sono state trovate istanze BastianHost ...... "
+    echo "\n" 
 
+    echo "esecuzione terraform ...."
+    
     echo "esecuzione Terraform init "
     terraform init 
 
